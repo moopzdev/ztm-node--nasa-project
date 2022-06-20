@@ -1,0 +1,22 @@
+{
+  "name": "ztm-node--nasa-project",
+  "version": "1.0.0",
+  "description": "This repo is a fullstack app created by coding along ZTM 's 'Complete NodeJS Developer in 2022' course.",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run watch --prefix server",
+    "client": "npm start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moopz-Dev/ztm-node--nasa-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moopz-Dev/ztm-node--nasa-project/issues"
+  },
+  "homepage": "https://github.com/Moopz-Dev/ztm-node--nasa-project#readme"
+}
