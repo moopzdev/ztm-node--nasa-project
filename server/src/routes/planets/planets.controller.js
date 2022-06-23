@@ -1,5 +1,5 @@
-const { planets } = require("../../models/planets.model")
+const { planets, getAllPlanets } = require("../../models/planets.model")
 
-module.exports.getAllPlanets = (req, res) => {
-  res.status(200).json(planets)
+module.exports.getAllPlanets = async (req, res) => {
+  res.status(200).json(await getAllPlanets())
 }
